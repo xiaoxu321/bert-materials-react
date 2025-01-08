@@ -1,6 +1,6 @@
 {
   "name": "@bert.xu/bert_demo_react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "aaaaa",
   "main": "./lib/index.js",
   "module": "./es/index.js",
