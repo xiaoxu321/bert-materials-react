@@ -16,7 +16,7 @@
     "test": "arco test",
     "sync": "arco sync",
     "clean": "lerna run clean",
-    "release": "lerna publish",
+    "release": "lerna publish --no-private",
     "eslint": "eslint 'packages/**/src/**/*.{js,jsx,ts,tsx}' --fix --cache --quiet",
     "stylelint": "stylelint 'packages/**/src/**/*.less' --fix --cache",
     "format": "prettier 'packages/**/src/**/*.{js,jsx,ts,tsx}' --config .prettierrc --write"
