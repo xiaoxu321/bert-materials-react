@@ -86,7 +86,7 @@
           "name": "BertArcoReact",
           "rootDir": "packages/bert_arco_react/src",
           "author": "Bert"
-        },
+        }
       ]
     }
   }

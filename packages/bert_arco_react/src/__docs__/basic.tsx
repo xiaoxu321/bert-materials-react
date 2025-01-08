@@ -1,6 +1,7 @@
 import React from 'react';
-import { bert_arco_react } from '../index';
+// eslint-disable-next-line camelcase
+import { BertArcoReact } from '../index';
 
 export default function Basic() {
-  return <bert_arco_react />;
+  return <BertArcoReact />;
 }
