@@ -4,6 +4,7 @@
   "description": "点击按钮触发烟花效果",
   "main": "./lib/index.js",
   "module": "./es/index.js",
+  "private": true,
   "scripts": {
     "clean": "rm -rf es lib artifacts"
   },

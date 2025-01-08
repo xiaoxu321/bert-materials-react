@@ -1,9 +1,10 @@
 {
   "name": "@bert.xu/bert_demo_react",
-  "version": "0.1.1",
-  "description": "bert",
+  "version": "0.1.0",
+  "description": "aaaaa",
   "main": "./lib/index.js",
   "module": "./es/index.js",
+  "types": "./es/index.d.ts",
   "scripts": {
     "clean": "rm -rf es lib artifacts"
   },
@@ -13,7 +14,9 @@
     "react-dom": "^16.0.1"
   },
   "dependencies": {
-    "canvas-confetti": "^1.4.0"
+    "classnames": "^2.3.1",
+    "gsap": "^3.9.1",
+    "lodash.shuffle": "^4.2.0"
   },
   "sideEffects": [
     "{es,lib,src}/**/style/*",

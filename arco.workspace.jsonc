@@ -81,7 +81,12 @@
           "name": "Watermark",
           "rootDir": "packages/watermark/src",
           "author": "yuhan0709"
-        }
+        },
+        {
+          "name": "BertArcoReact",
+          "rootDir": "packages/bert_arco_react/src",
+          "author": "Bert"
+        },
       ]
     }
   }
