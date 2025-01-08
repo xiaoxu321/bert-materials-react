@@ -5,6 +5,9 @@
     "packages/*"
   ],
   "scripts": {
+    "add:package": "lerna create",
+    "init": "lerna bootstrap",
+    "build:lerna": "lerna run build --stream",
     "start": "arco start",
     "build": "arco build",
     "test": "arco test",

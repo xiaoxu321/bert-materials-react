@@ -1,0 +1,28 @@
+{
+  "name": "@bert.xu/bert_demo_react",
+  "version": "0.1.0",
+  "description": "bert",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "scripts": {
+    "clean": "rm -rf es lib artifacts"
+  },
+  "peerDependencies": {
+    "@arco-design/web-react": ">=2.0.0",
+    "react": ">=16",
+    "react-dom": "^16.0.1"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0"
+  },
+  "sideEffects": [
+    "{es,lib,src}/**/style/*",
+    "*.less"
+  ],
+  "files": [
+    "es",
+    "lib",
+    "artifacts"
+  ],
+  "license": "MIT"
+}
